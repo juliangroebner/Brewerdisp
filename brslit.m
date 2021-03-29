@@ -2,7 +2,7 @@ function [f,P]=brslit(fwhm,wl,plateau);
 % function [f,P]=brslit(fwhm,wl,plateau);
 % 18 6 97 julian
 % calculates exact slit triangle for certain slit width.
-
+% test
 
 if nargin<3,plateau=0.87;end
 %plateau=1;
