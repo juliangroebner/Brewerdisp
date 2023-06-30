@@ -10,6 +10,10 @@ function analysedsp(day,year,brewnb,polynb,path,comment,O3xsec)
 % 25 6 2020 JG, add additional cross-sections and new parameter
 %O3XSEC={'paur&bass','brion','Bremen','Bremen-ATMOZ','Bremen Teff','B&P IGC Teff','Bremen-ATMOZ Teff','Brion Teff','ACS'};
 % 28 10 2020 JG add ACS x-sections from ESA project
+% How to run:
+% analysedsp(320,21,163,3,'f:\temp\dsp/','',1);
+% output is in file opos32021_20230630.163.
+% 
 
 if nargin<7,O3xsec=[];end
 if isempty(O3xsec),O3xsec=1;end
